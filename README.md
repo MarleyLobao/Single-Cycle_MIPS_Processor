@@ -1,0 +1,2 @@
+# Single-Cycle_MIPS_Processor
+This repository holds files related to the development of a Single-Cycle Processor developed during the Digital Systems Architecture course.  The activities were done in an incremental way, with the objective of building each piece of hardware separately in order to understand how each component works.One idea for another repository would be a verification environment to observe if the functional requirements of the projects are in fact completely achieved. For now, this idea is left to be implemented in the future.
