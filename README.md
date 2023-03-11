@@ -1,6 +1,6 @@
 # Single-Cycle_MIPS_Processor :computer:
 This repository holds files related to the development of a Single-Cycle Processor developed during the Digital Systems Architecture course.
-The project had changes so that instead of being executed in FPGA, both the execution and the analysis are done in simulation in the Quartus Prime Lite Edition and ModelSim software.
+The project had changes so that instead of being executed in FPGA, both the execution and the analysis are done in simulation in the Quartus Prime Lite Edition, ModelSim software and EDA Playground.
 The activities were done in an incremental way, with the objective of building each piece of hardware separately in order to understand how each component works.
 One idea for another repository would be a verification environment to observe if the functional requirements of the projects are in fact completely achieved. For now, this idea is left to be implemented in the future.
 

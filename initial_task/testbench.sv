@@ -1,3 +1,5 @@
+`include "Mod_Test.v"
+
 `timescale 1ns / 1ps
 `default_nettype none //Command to disable automatic wires declaration
 
@@ -52,6 +54,9 @@ Mod_Test MT (
 initial begin
 	tb_CLOCK_27 = 1'b1;
 	tb_CLOCK_50 = 1'b1;
+
+    $dumpfile("design.vcd");
+    $dumpvars;
 	
 	tb_KEY[0] = 1'b0;
 	
