@@ -15,3 +15,8 @@ One idea for another repository would be a verification environment to observe i
 - Description and connection a 8-bit register bank with two channels to write data and two channels to read data;
 - The s0 register always has the value zero (MIPS architecture definition) to facilitate some operations;
 - The s1-s7 registers are available for writing.
+
+### `Third Task - Arithmetic Logic Unit` :open_file_folder:
+- Description and connection of an 8-bit Arithmetic Logic Unit (ULA) with 5 operations (Add, Subtract, And, Or and Halt);
+- Flag Z with the function to indicate when the output of the ULA is at zero;
+- Description and connection of a 2:1 multiplexer.
