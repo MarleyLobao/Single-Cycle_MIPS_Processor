@@ -1,3 +1,5 @@
+`include "Mod_Test.v"
+
 `timescale 1ns / 1ps
 `default_nettype none //Command to disable automatic wires declaration
 
@@ -54,6 +56,9 @@ assign tb_KEY[1] = tb_CLOCK_50;
 initial begin
 	tb_CLOCK_27 = 1'b1;
 	tb_CLOCK_50 = 1'b1;
+  
+    $dumpfile("design.vcd");
+    $dumpvars;
 	
 	//activating write enable
 	tb_SW[17] = 1'b1;

@@ -1,3 +1,6 @@
+`include "hex7seg.v"
+`include "RegisterFile.v"
+
 module Mod_Test (
 	//Clocks
 	input CLOCK_27, CLOCK_50,
