@@ -20,3 +20,9 @@ One idea for another repository would be a verification environment to observe i
 - Description and connection of an 8-bit Arithmetic Logic Unit (ULA) with 5 operations (Add, Subtract, And, Or and Halt);
 - Flag Z with the function to indicate when the output of the ULA is at zero;
 - Description and connection of a 2:1 multiplexer.
+
+### `Fourth Task - Control Unit` :open_file_folder:
+- Description and connection of an Control Unit (ULA) with command signals to the ULA (ULAControl and ULASrc) and register bank (RegDst and RegWrite);
+- 32-bit Instruction Memory to execute the stored program;
+- Description and connection of an 8-bit Program Counter;
+- 1-bit Adder to increment the Program Counter.
