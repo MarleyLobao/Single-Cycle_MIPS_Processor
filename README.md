@@ -22,7 +22,13 @@ One idea for another repository would be a verification environment to observe i
 - Description and connection of a 2:1 multiplexer.
 
 ### `Fourth Task - Control Unit` :open_file_folder:
-- Description and connection of an Control Unit (ULA) with command signals to the ULA (ULAControl and ULASrc) and register bank (RegDst and RegWrite);
+- Description and connection of an Control Unit with command signals to the ULA (ULAControl and ULASrc) and register bank (RegDst and RegWrite);
 - 32-bit Instruction Memory to execute the stored program;
 - Description and connection of an 8-bit Program Counter;
 - 1-bit Adder to increment the Program Counter.
+
+### `Fifth Task - ROM Memory (Instructions) and RAM Memory (Data)` :open_file_folder:
+- Description and connection of a RAM Memory for writing and reading data, operating at the fast clock of 50MHz;
+- Frequency divider to generate the slow clock, implemented to be 5x slower (10MHz) than the fast one;
+- 8-bit Adder to branch program counter execution;
+- Addition of high-speed clock dependency in ROM Memory (instructions).
