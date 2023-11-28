@@ -32,3 +32,7 @@ One idea for another repository would be a verification environment to observe i
 - Frequency divider to generate the slow clock, implemented to be 5x slower (10MHz) than the fast one;
 - 8-bit Adder to branch program counter execution;
 - Addition of high-speed clock dependency in ROM Memory (instructions).
+
+### `Sixth Task - IN and OUT Parallel` :open_file_folder:
+- Inclusion of a parallel data input option that allows external data to be taken instead of RAM Memory when the address is 8'hff;
+- Inclusion of a parallel data output operating at slow clock, which allows data coming from the registers to be released directly to the output if the address is 8'hff.
