@@ -71,6 +71,7 @@ module simple_testbench();
     // divisor AFTER from the first posedge slow clock
     tb_SW[1] = 1;
 
+    // External data sent to the parallel input
     #100;
     tb_SW[17:10] = 8'hbc;
 
